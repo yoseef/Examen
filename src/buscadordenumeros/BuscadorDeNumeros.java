@@ -32,7 +32,7 @@ public class BuscadorDeNumeros {
         System.out.println("Introdueix numero a buscar: ");
         int num = lc.nextInt();
         long start = System.currentTimeMillis();
-        if (llista.contains(num)) {
+        if (llista.indexOf(num) != -1) {
             //counter.countPrimes(1000000);
             long end = System.currentTimeMillis();
             System.out.println("Trobat en : " + ((end - start)) + "milliseconds");
