@@ -39,6 +39,5 @@ public class BuscadorDeNumeros {
         }else{
             System.out.println("No s'ha trobat el numero.");
         }
-
     }
 }
