@@ -32,8 +32,8 @@ public class BuscadorDeNumeros {
         System.out.println("Introdueix numero a buscar: ");
         int num = lc.nextInt();
         long start = System.currentTimeMillis();
-        if (llista.indexOf(num) != -1) {
-            //end contains current time.
+        if (llista.contains(num)) {
+ 	    //guardem el temps actual a la variable end.
             long end = System.currentTimeMillis();
             System.out.println("Trobat en : " + ((end - start)) + "milliseconds");
         }else{
