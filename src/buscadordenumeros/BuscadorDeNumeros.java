@@ -33,7 +33,7 @@ public class BuscadorDeNumeros {
         int num = lc.nextInt();
         long start = System.currentTimeMillis();
         if (llista.indexOf(num) != -1) {
-            //counter.countPrimes(1000000);
+            //end contains current time.
             long end = System.currentTimeMillis();
             System.out.println("Trobat en : " + ((end - start)) + "milliseconds");
         }else{
