@@ -34,8 +34,8 @@ public class BuscadorDeNumeros {
         long start = System.currentTimeMillis();
         if (llista.contains(num)) {
             //counter.countPrimes(1000000);
-            long vfinal = System.currentTimeMillis();
-            System.out.println("Trobat en : " + ((vfinal - start)) + "milliseconds");
+            long end = System.currentTimeMillis();
+            System.out.println("Trobat en : " + ((end - start)) + "milliseconds");
         }else{
             System.out.println("No s'ha trobat el numero.");
         }
